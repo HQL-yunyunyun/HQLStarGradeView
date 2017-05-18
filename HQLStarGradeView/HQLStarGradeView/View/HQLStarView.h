@@ -10,4 +10,8 @@
 
 @interface HQLStarView : UIView
 
+@property (strong, nonatomic) UIColor *darkColor;
+@property (strong, nonatomic) UIColor *lightColor;
+@property (assign, nonatomic) CGFloat lightPercent; // 高亮的百分比
+
 @end

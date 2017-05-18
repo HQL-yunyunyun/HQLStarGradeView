@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7112FF1ECDDEA90024A638 /* HQLStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7112FE1ECDDEA90024A638 /* HQLStarView.m */; };
+		0D7113021ECDFAC60024A638 /* HQLStarGradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7113011ECDFAC60024A638 /* HQLStarGradeView.m */; };
 		4A3468171ECDB7EB00898C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3468161ECDB7EB00898C57 /* main.m */; };
 		4A34681A1ECDB7EB00898C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3468191ECDB7EB00898C57 /* AppDelegate.m */; };
 		4A34681D1ECDB7EB00898C57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A34681C1ECDB7EB00898C57 /* ViewController.m */; };
 		4A3468201ECDB7EB00898C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A34681E1ECDB7EB00898C57 /* Main.storyboard */; };
 		4A3468221ECDB7EB00898C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3468211ECDB7EB00898C57 /* Assets.xcassets */; };
 		4A3468251ECDB7EB00898C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3468231ECDB7EB00898C57 /* LaunchScreen.storyboard */; };
-		4A34682E1ECDB80A00898C57 /* HQLStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A34682D1ECDB80A00898C57 /* HQLStarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D7112FD1ECDDEA90024A638 /* HQLStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQLStarView.h; sourceTree = "<group>"; };
+		0D7112FE1ECDDEA90024A638 /* HQLStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQLStarView.m; sourceTree = "<group>"; };
+		0D7113001ECDFAC60024A638 /* HQLStarGradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQLStarGradeView.h; sourceTree = "<group>"; };
+		0D7113011ECDFAC60024A638 /* HQLStarGradeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQLStarGradeView.m; sourceTree = "<group>"; };
 		4A3468121ECDB7EB00898C57 /* HQLStarGradeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQLStarGradeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3468161ECDB7EB00898C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A3468181ECDB7EB00898C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +32,6 @@
 		4A3468211ECDB7EB00898C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3468241ECDB7EB00898C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3468261ECDB7EB00898C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A34682C1ECDB80A00898C57 /* HQLStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQLStarView.h; sourceTree = "<group>"; };
-		4A34682D1ECDB80A00898C57 /* HQLStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQLStarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D7112FB1ECDDEA90024A638 /* HQLStarGradeView */ = {
+			isa = PBXGroup;
+			children = (
+				0D7112FC1ECDDEA90024A638 /* View */,
+			);
+			path = HQLStarGradeView;
+			sourceTree = "<group>";
+		};
+		0D7112FC1ECDDEA90024A638 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D7112FD1ECDDEA90024A638 /* HQLStarView.h */,
+				0D7112FE1ECDDEA90024A638 /* HQLStarView.m */,
+				0D7113001ECDFAC60024A638 /* HQLStarGradeView.h */,
+				0D7113011ECDFAC60024A638 /* HQLStarGradeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4A3468091ECDB7EB00898C57 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +83,11 @@
 		4A3468141ECDB7EB00898C57 /* HQLStarGradeView */ = {
 			isa = PBXGroup;
 			children = (
+				0D7112FB1ECDDEA90024A638 /* HQLStarGradeView */,
 				4A3468181ECDB7EB00898C57 /* AppDelegate.h */,
 				4A3468191ECDB7EB00898C57 /* AppDelegate.m */,
 				4A34681B1ECDB7EB00898C57 /* ViewController.h */,
 				4A34681C1ECDB7EB00898C57 /* ViewController.m */,
-				4A34682C1ECDB80A00898C57 /* HQLStarView.h */,
-				4A34682D1ECDB80A00898C57 /* HQLStarView.m */,
 				4A34681E1ECDB7EB00898C57 /* Main.storyboard */,
 				4A3468211ECDB7EB00898C57 /* Assets.xcassets */,
 				4A3468231ECDB7EB00898C57 /* LaunchScreen.storyboard */,
@@ -110,12 +131,13 @@
 		4A34680A1ECDB7EB00898C57 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HQL;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = weplus;
 				TargetAttributes = {
 					4A3468111ECDB7EB00898C57 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = X8GXYMZ6FW;
+						DevelopmentTeam = 98B5P59X79;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,8 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A34681D1ECDB7EB00898C57 /* ViewController.m in Sources */,
+				0D7113021ECDFAC60024A638 /* HQLStarGradeView.m in Sources */,
 				4A34681A1ECDB7EB00898C57 /* AppDelegate.m in Sources */,
-				4A34682E1ECDB80A00898C57 /* HQLStarView.m in Sources */,
+				0D7112FF1ECDDEA90024A638 /* HQLStarView.m in Sources */,
 				4A3468171ECDB7EB00898C57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,10 +302,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X8GXYMZ6FW;
+				DEVELOPMENT_TEAM = 98B5P59X79;
 				INFOPLIST_FILE = HQLStarGradeView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.HQLStarGradeView;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.HQLStarGradeView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -291,10 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X8GXYMZ6FW;
+				DEVELOPMENT_TEAM = 98B5P59X79;
 				INFOPLIST_FILE = HQLStarGradeView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.HQLStarGradeView;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.HQLStarGradeView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -318,6 +341,7 @@
 				4A34682B1ECDB7EB00898C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
