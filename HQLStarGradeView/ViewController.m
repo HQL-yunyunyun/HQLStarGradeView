@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import "HQLStarView.h"
+#import "HQLStarGradeView.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view addSubview:[[HQLStarView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)]];
+    HQLStarGradeView *starGradeView = [[HQLStarGradeView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 100)];
+    starGradeView.isAllowGrade = YES;
+    starGradeView.isShowGrade = YES;
+    [self.view addSubview:starGradeView];
 }
 
 

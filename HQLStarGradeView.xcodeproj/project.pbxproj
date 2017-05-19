@@ -15,6 +15,8 @@
 		4A3468201ECDB7EB00898C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A34681E1ECDB7EB00898C57 /* Main.storyboard */; };
 		4A3468221ECDB7EB00898C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3468211ECDB7EB00898C57 /* Assets.xcassets */; };
 		4A3468251ECDB7EB00898C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3468231ECDB7EB00898C57 /* LaunchScreen.storyboard */; };
+		4AF098001ECEDAD900D88374 /* HMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF097FF1ECEDAD900D88374 /* HMMenuView.m */; };
+		4AF098031ECEE0A000D88374 /* UIView+ZXFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF098021ECEE0A000D88374 /* UIView+ZXFrameExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		4A3468211ECDB7EB00898C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3468241ECDB7EB00898C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3468261ECDB7EB00898C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF097FE1ECEDAD900D88374 /* HMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMenuView.h; sourceTree = "<group>"; };
+		4AF097FF1ECEDAD900D88374 /* HMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMenuView.m; sourceTree = "<group>"; };
+		4AF098011ECEE0A000D88374 /* UIView+ZXFrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXFrameExtension.h"; sourceTree = "<group>"; };
+		4AF098021ECEE0A000D88374 /* UIView+ZXFrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXFrameExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,7 @@
 		0D7112FB1ECDDEA90024A638 /* HQLStarGradeView */ = {
 			isa = PBXGroup;
 			children = (
+				4AF097FD1ECEDACC00D88374 /* Lib */,
 				0D7112FC1ECDDEA90024A638 /* View */,
 			);
 			path = HQLStarGradeView;
@@ -103,6 +110,17 @@
 				4A3468161ECDB7EB00898C57 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF097FD1ECEDACC00D88374 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4AF098011ECEE0A000D88374 /* UIView+ZXFrameExtension.h */,
+				4AF098021ECEE0A000D88374 /* UIView+ZXFrameExtension.m */,
+				4AF097FE1ECEDAD900D88374 /* HMMenuView.h */,
+				4AF097FF1ECEDAD900D88374 /* HMMenuView.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +198,10 @@
 			files = (
 				4A34681D1ECDB7EB00898C57 /* ViewController.m in Sources */,
 				0D7113021ECDFAC60024A638 /* HQLStarGradeView.m in Sources */,
+				4AF098031ECEE0A000D88374 /* UIView+ZXFrameExtension.m in Sources */,
 				4A34681A1ECDB7EB00898C57 /* AppDelegate.m in Sources */,
 				0D7112FF1ECDDEA90024A638 /* HQLStarView.m in Sources */,
+				4AF098001ECEDAD900D88374 /* HMMenuView.m in Sources */,
 				4A3468171ECDB7EB00898C57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
